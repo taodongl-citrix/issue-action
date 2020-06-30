@@ -1,0 +1,9 @@
+name: 'G11n Radar'
+description: 'Wait a designated number of milliseconds'
+inputs:
+  repo-token:
+    description: 'github token'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
